@@ -1,0 +1,136 @@
+.main-content {
+    padding: 15px
+}
+
+.center-ask {
+    margin: 7% 39% 20% 39%
+}
+
+.center-ask i {
+    font-size: 20rem;
+    color: #cbcbcc;
+}
+
+hr.hr {
+    position: absolute;
+    width: 91%;
+    left: 6%;
+    top: 67.5%;
+}
+
+.card-body {
+    position: relative;
+}
+.table.table-striped.table-hover.table-bordered.dt-responsive.nowrap tr{
+  cursor: pointer;
+}
+
+.custom-scrollbar-js {
+  height: 90vh;
+}
+/*
+animate icon
+*/
+.bounce {
+  display: inline-block;
+  position: relative;
+  -moz-animation: bounce 0.6s infinite linear;
+  -o-animation: bounce 0.6s infinite linear;
+  -webkit-animation: bounce 0.6s infinite linear;
+  animation: bounce 0.6s infinite linear;
+  colr:000;
+}
+.fa-truck{
+	color: #027bdd;
+  font-size: 30px;
+}
+@-webkit-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-moz-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-o-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-ms-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+/*/////////////////////////////////////////////////////////////////////////*/
+.route p{
+  margin: 0
+}
+.route div:hover{
+  background: #4b4e52;
+  cursor: pointer;
+}
+.row.route {
+   text-align: center;
+    background: #31363c;
+    box-shadow: 2px 2px 7px;
+}
+/* ///////// order bar//////////////////////////////////////////////////*/
+.tracking-progress-bar{
+  margin: 10px 0
+}
+
+.tracking-progress-bar__item{
+  background: #E5E7ED;
+  border-radius: 50%;
+  color: #768CAD;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 17px;
+  height: 30px;
+  line-height: 30px;
+  position: relative;
+  text-align: center;
+  width: 31px;
+  z-index: 9;
+}
+
+
+.tracking-progress-bar__item__bar{
+  background: #E5E7ED;
+  display: inline-block;
+  margin: 0 -5px;
+  height: 12px;
+  width: 170px;
+  z-index: 2;
+}
+
+
+.tracking-progress-bar__item__bar--active{
+  background: #093782
+}
+
+
+.tracking-progress-bar__item--first{
+    margin-left: 0
+}
+
+
+.tracking-progress-bar__item--active{
+  background: #093782
+  color: #fff
+}
+
+/*////////////////////////////////////////////////////////////////////*/
