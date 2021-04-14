@@ -40,7 +40,7 @@ class OrderapiController extends Controller
     // end call functions
     return response()->json([
       'order'=> $order->id,
-      'Status'=> 'success'
+      'Status'=> 'successs'
     ]);
   }
 
