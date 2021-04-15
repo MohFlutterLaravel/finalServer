@@ -1,5 +1,5 @@
 <?php
-/* Temp du travaille :
+/* Temp du travaille : atom 1
   readme: The order delivery time is between two times ex: < 09:00 -- 10:00 >
   times:
     pm:
@@ -12,7 +12,6 @@
     < 16:00 -- 17:00 >
 */
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 use App\Order;
 class OrderapiController extends Controller
