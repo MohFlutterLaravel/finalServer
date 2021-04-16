@@ -1,5 +1,5 @@
 <?php
-/* Temp du travaille : 
+/* Temp du travaille : digitalO
   readme: The order delivery time is between two times ex: < 09:00 -- 10:00 >
   times:
     pm:
