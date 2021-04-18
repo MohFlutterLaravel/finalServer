@@ -1,8 +1,6 @@
 {
   "ExpandedNodes": [
     "",
-    "\\app\\Http",
-    "\\app\\Http\\Controllers",
     "\\config",
     "\\resources",
     "\\resources\\views",
