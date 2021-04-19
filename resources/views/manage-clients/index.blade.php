@@ -170,8 +170,8 @@ $('#deleteClient').on('click', 'button', function (){
 $('#clients-table tbody').on('click', 'tr', function () {
   var data = jQuery(this).attr("id");
 
-  $('#deleteClient').attr("action", 'http://167.99.131.79/clients/'+data);
- $('#clientDetails').attr("href", 'http://167.99.131.79/clients/'+data);
+  $('#deleteClient').attr("action", 'http://localhost:8000/clients/'+data);
+ $('#clientDetails').attr("href", 'http://localhost:8000/clients/'+data);
 });
 
 
