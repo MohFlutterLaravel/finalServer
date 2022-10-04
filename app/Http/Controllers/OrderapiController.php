@@ -27,8 +27,8 @@ class OrderapiController extends Controller
   public function requestOrdersProvider(Request $request)
   {
     // start request data
-    $time_liv = $request->time_liv;
-    $clientId = $request->clientId;
+    $time_liv = $request->time_liv; // format hh:mm:ss
+    //$clientId = $request->clientId;
     $locationId = $request->locationId;
     $produits = $request->produits;
     // end request data

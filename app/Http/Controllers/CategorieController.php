@@ -4,7 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Http\Request;
-use App\Http\Requests\CategorieRequest;
+use Illuminate\Http\Response;
+use App\Http\Requests\Categorie\CategorieRequest;
 use App\Categorie;
 class CategorieController extends Controller
 {
@@ -38,14 +39,14 @@ class CategorieController extends Controller
      */
     public function create()
     {
-        return view('manage-products.categories.create');
+        return view('manage-products.categories.create'); 
     }
 
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @param  CategorieRequest  $request
+     * @return Response
      */
     public function store(CategorieRequest $request)
     {

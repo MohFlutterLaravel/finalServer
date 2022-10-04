@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Http\Requests;
+namespace App\Http\Requests\Categorie;
 
 use Illuminate\Foundation\Http\FormRequest;
+
 class CategorieRequest extends FormRequest
 {
     /**
@@ -22,11 +23,11 @@ class CategorieRequest extends FormRequest
      */
     public function rules()
     {
-        return [
-          'categorie-name' => 'required|max:50',
-          'categorie-color' => 'required',
-          'categorie-image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048'
-          'file' => 'max:10240'
-        ];
+      return [
+        'categorie-name' => 'required|max:50',
+        'categorie-color' => 'required',
+        'categorie-image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048'
+        'file' => 'max:10240'
+      ];
     }
 }

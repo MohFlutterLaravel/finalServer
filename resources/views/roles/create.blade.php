@@ -60,14 +60,14 @@
                                 <div class="card-body">
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Role name</label>
-                                        <input type="text" name="role-name" value="{{ old('role-name') }}" class="form-control" id="exampleInputEmail1" placeholder="Enter role name ..">
+                                        <input type="text" name="role-name" value="{{ old('role-name') }}" class="form-control" id="exampleInputEmail1" placeholder="Enter role name .." autocomplete="false">
                                         @if($errors->has('role-name'))
                                             <span class="error badge badge-danger">{{ $errors->first('role-name') }}</span>
                                             @endif
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputPassword1">Password</label>
-                                        <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Type your password ..">
+                                        <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Type your password .." autocomplete="false">
                                         @if($errors->has('password'))
                                             <span class="error badge badge-danger">{{ $errors->first('password') }}</span>
                                             @endif

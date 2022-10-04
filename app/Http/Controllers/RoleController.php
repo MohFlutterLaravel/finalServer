@@ -16,12 +16,13 @@ class RoleController extends Controller
      */
      public function test()
      {
-       return response()->json([
-         'name' => 'moh'
-       ]);
        /*$user = auth()->user();
        $role = Role::create(['name' => 'admin']);
        $user->assignRole('admin');*/
+       return response()->json([
+         'name' => 'moh'
+       ]);
+
      }
      public function index()
      {
@@ -64,7 +65,7 @@ class RoleController extends Controller
      */
     public function store(RoleRequest $request)
     {
-      $password = $request->input('password'); 
+      $password = $request->input('password');
       $user = auth()->user();
         //dd($request->input('permissions', []));
         //dd($request->input('role-name'));

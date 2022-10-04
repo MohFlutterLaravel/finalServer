@@ -238,8 +238,7 @@ public function valideOrdersData()
   }
   public function attachOrderProduits($order, $produits)
   {
-    //$customer->drinks()->attach($drink_id, array('customer_got_drink', 1));
-    //this executes the insert-query with customer_got_drink = 1
+
     foreach ($produits as $produit) {
       $order->produits()->attach($produit['id'], ['qte' =>  $produit['qte'] ]);
       $order->total += $produit['total'];

@@ -82,7 +82,9 @@ active
                                     <td>{{ $permission->id }}</td>
                                     <td>{{ $permission->name }}</td>
                                     <td>{{ $permission->guard_name }}</td>
-                                    <td>{{ $permission->catpermission->name }}</td>
+                                    @if ($permission->catpermission != null)
+                                      <td>{{ $permission->catpermission->name }}</td>
+                                    @endif
                                     <td>{{ $permission->updated_at->format('Y-m-d') }}</td>
                                     <td>
                                         <form action="{{ route('permissions.destroy',$permission->id) }}" method="post">

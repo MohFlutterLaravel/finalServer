@@ -32,10 +32,6 @@ class ProduitController extends Controller
     ->setRowId(function ($produit) {
                     return $produit->id;
                 })
-    ->setRowAttr([
-                   'data-target' => '#modal-default',
-                   'data-toggle' => 'modal',
-                ])
     ->make(true);
         //return Datatables::of(Produit::query())->make(true);
       /*  $query = Produit::query();
